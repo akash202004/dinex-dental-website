@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
+:root{
+    --main-color : rgb(26, 27, 26);
+    --secondary-color : #0fb255e9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+}
+
+#main{
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+    width: 100%;
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3vw 2.5vw;
+}
+
+#nav h1{
+    font-size: 2.2vw
+}
+
+#nav a{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: white;
+    padding: 0 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#nav h3{
+    font-size: 1.2vw;
+}
+#home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1vw 2.5vw;
+    justify-content: space-between;
+}
+
+#left{
+    width: 100%;
+    line-height: 1;
+}
+
+#left h1{
+    letter-spacing: 4px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 5.5vw;
+}
+
+.green-text{
+    color: #0fb255e9;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#left img{
+    width: 49vw;
+    height: 20vw;
+    border-radius: 20px;
+}
+
+#left-img-container{
+    margin-top: 25px;
+    position: relative;
+}
+
+.text-combine{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px;
+    width: 30%;
+    font-weight: 600;
+    font-size: 1vw;
+}
+#right{
+    width: 84%;
+}
+
+#right p{
+    font-size: 1.1vw;
+    padding-bottom: 3vw;
+}
+
+#right-img-container{
+    position: relative;
+    padding-top: 50px;
+}
+
+#right img{
+    width: 43vw;
+    height: 25vw;
+    border-radius: 20px;
+}
+
+.button-combine{
+    background-color: var(--secondary-color);
+    color: black;
+    border: none;
+    border-radius: 40px;
+    padding: 1.2vw 1.4vw;
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+
+#trusted{
+    background-color: var(--main-color);
+    padding-bottom: 6vw;
+}
+
+#trusted-by{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    gap: 10vw;
+}
+
+#trusted img{
+    width: 5%;
+}
+
+#trusted h1{
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4vw;
+    padding-top: 8vw;
+}
+
+#about-dinex{
+    background-color: var(--main-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.3vw 2.5vw;
+}
+
+#right-dinex{
+    width:90%;
+}
+
+#left-dinex{
+    position: relative;
+    width: 100%;
+}
+
+#left-dinex .img-one{
+    border-radius: 20px;
+    width: 41vw;
+    height: 27vw;
+}
+
+#right-dinex h1{
+    font-size: 4vw;
+}
+
+#right-dinex p{
+    font-size: 1.1vw;
+}
+
+#right-dinex #para{
+    padding-bottom: 3vw;
+}
+
+#right-dinex li{
+    font-size: 1.1vw;
+    padding: .5vw;
+    margin-left: 1vw;
+}
+
+#button-two{
+    margin-top: 2vw;
+}
+
+.above-img-div{
+    color: black;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    width:fit-content;
+    justify-content: center;
+    padding: 1vw 1vw;
+    border-radius: 1.5vw;
+    background-color: var(--secondary-color);
+}
+
+.above-img-div img{
+    background-color: var(--secondary-color);
+    width: 3VW;
+    height: 3.6VW;
+    margin: 0 12px;
+}
+
+.above-img-text h1{
+    font-weight: 600;
+    font-size: 2.3vw;
+}
+
+.above-img-text p{
+    font-weight: 600;
+    font-size: 0.9vw;
+}
+
+#service{
+    width: 100%;
+    background-color: var(--main-color);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#service h1{
+    display: flex;
+    justify-content: center;
+    padding: 46px;
+    font-size: 4.5vw;
+}
+
+#service h1 span{
+    margin-left: 10px;
+}
+
+#big-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.3vw 2.5vw;
+    padding-bottom: 1.9vw;
+    gap: 20px;
+}
+
+#first-container{
+    position: relative;
+    background-color: var(--secondary-color);
+    color: black;
+    border-radius: 20px;
+    position: relative;
+}
+
+#second-container{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    position: relative;
+}
+
+#first-container img{
+    position: absolute;
+    top: 3vw;
+    right: 1vw;
+    width: 18vw;
+    height: 17vw;
+}
+
+#second-container img{
+    position: absolute;
+    top: 3vw;
+    right: 1vw;
+    width: 18vw;
+    height: 17vw;
+}
+
+#big-container .h2{
+    position: relative;
+    font-size: 2.5vw;
+    padding: 1.5vw 2vw;
+    font-weight: bolder;
+}
+
+#big-container .pa{
+    font-size: 1.2vw;
+    padding: 1vw 2vw;
+    width: 50%;
+    font-weight: 600;
+    padding-bottom: 8vw;
+}
+
+#small-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5vw;
+}
+
+#small-container .small-container{
+    background-color: white;
+    padding: 4vw 5vw;
+    border-radius: 20px;
+}
+
+#small-container .small-container h2{
+    color: black;
+    font-size: 2.1vw;
+    padding: 0 2.7vw;
+    font-weight: bolder;
+}
+
+#page-four{
+    width: 100%;
+    padding: 2.3vw 2.5vw;
+    padding-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left-page{
+    width: 100%;
+}
+
+#left-page h1{
+    font-size: 4.9vw;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    padding: 1vw 0;
+}
+
+#left-page p{
+    font-size: 1vw;
+    width: 70%;
+    padding: 1vw 0;
+    padding-bottom: 2.7vw;
+}
+
+#left-page h3{
+    font-size: 1.5vw;
+    color: var(--secondary-color);
+}
+
+#right-page{
+    width: 74%;
+    position: relative;
+}
+
+#right-page .img-four{
+    height: 25vw;
+    width: 40vw;
+    border-radius: 20px;
+}
+
+.page-four-floating-div{
+    color: black;
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left: -50px;
+    width:fit-content;
+    justify-content: center;
+    padding: 1vw 1vw;
+    border-radius: 1.5vw;
+    background-color: var(--secondary-color);
+}
+
+.page-four-above-img-logo img{
+    background-color: var(--secondary-color);
+    width: 3VW;
+    height: 3.6VW;
+    margin: 0 12px;
+}
+
+.paqge-four-above-img-text h1{
+    font-weight: 600;
+    font-size: 2.3vw;
+}
+
+.paqge-four-above-img-text p{
+    font-weight: 600;
+    font-size: 0.9vw;
+}
+
+#our-doctors{
+    width: 100%;
+    padding: 2.3vw 2.5vw;
+    padding-top: 8vw;
+}
+
+#our-doctors h1{
+    font-size: 4.5vw;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+#our-doctors span{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+#our-doctors p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    padding-top: 2vw;
+}
+
+#our-doctors .p-two{
+    padding: 0;
+    padding-bottom: 4vw;
+}
+
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box img{
+    border-radius: 20px;
+    height: 28vw;
+    width: 20vw;
+}
+.box{
+    position: relative;
+}
+.box-four img{
+    width: 19vw;
+}
+
+.box-two img{
+    width: 19vw;
+}
+
+.box:hover{
+    transform: scale(1.15);
+}
+
+#green-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2.3vw 2.5vw;
+    padding-top: 5vw;
+    margin-top: 9vw;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+
+.left-green-div span{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 5.4vw;
+    letter-spacing: 1px;
+    padding: 1vw 0;
+    line-height: .9;
+    color: var(--main-color);
+    font-weight: 900;
+}
+
+.left-green-div{
+    width: 100%;
+}
+
+.right-green-div{
+    width: 50%;
+    display: flex;
+}
+
+.ff-img img{
+    height: 22.5vw;
+    width: 25.5vw;
+    border-radius: 20px;
+    padding: 0.2vw;
+}
+
+.fs-img img{
+    height: 11.3vw;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: .2vw;
+}
+
+.class-fc-img{
+    padding-top: 1vw;
+}
+
+.email-box{
+    position: relative;
+    width: 37vw;
+}
+
+
+.email-box input{
+    background-color: var(--main-color);
+    border-radius: 40px;
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: white;
+    padding: 1.1vw 1vw;
+    padding-right: 21vw;
+    margin-top: 4vw;
+}
+
+.subscribe{
+    position: absolute;
+    top: 4.39vw;
+    right: .5vw;
+    padding: 0.8vw 1.5vw;
+    border-radius: 40px;
+    background-color: var(--secondary-color);
+}
+
+.subscribe h4{
+    color: white;
+    font-size: 1.3vw;
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5vw 2.5vw;
+    padding-top: 8vw;
+}
+
+#left-footer h1{
+    font-size: 5vw;
+    padding-bottom: 1.7vw;
+}
+
+#left-footer p{
+    font-size: 1.3vw;
+}
+
+#right-footer{
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+}
+
+.f-combine h1{
+    font-size: 2.3vw;
+    padding-bottom: 2vw;
+    font-weight: bolder;
+}
+
+.f-combine ul a{
+    font-size: 1vw;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.f-combine ul{
+    padding: .5vw 0;
+}
+
+@media (max-width: 490px){
+    #nav{
+        padding-bottom: 10vw;
+    }
+    #nav h1{
+        font-size: 5vw;
+    }
+    #nav-element a{
+        font-size: 2.3vw;
+        padding: 0 .8vw;
+    }
+    #nav h3{
+        font-size: 2.3vw;
+    }
+    #home{
+        flex-direction: column;
+    }  
+    #left{
+        width: 100%;
+        padding-bottom: 5vw;
+    }
+    #left h1{
+        font-size: 15vw;
+        line-height: .9;
+    }
+    #left-img-container img{
+        width: 100%;
+        height: 37vw;
+        border-radius: 30px;
+    }
+    .text-combine{
+        font-size: 1.7vw;
+        font-weight: 500;
+    }
+    #right{
+        width: 100%;
+    }
+    #right p{
+        font-size: 2.3vw;
+        padding-bottom: 5vw;
+    }
+    .button-combine{
+        padding: 1.7vw 3vw;
+        font-size: 3.3vw;
+    }
+    #right-img-container{
+        padding-top: 0;
+    }
+    #right-img-container img{
+      display: none;
+    }
+    #right-img-text{
+        display: none;
+    }
+    #trusted h1{
+        font-size: 5vw;
+        padding-bottom: 4vw;
+    }
+    #trusted-by img{
+        width: 7.5%;
+    }
+    #about-dinex{
+        flex-direction: column;
+    }
+    #left-dinex{
+        width: 100%;
+    }
+    #left-dinex .img-one{
+        width: 86%;
+        height: 50vw;
+        border-radius: 30px;
+    }
+    .above-img-div{
+        right: 0;
+        padding: 1.5vw 1.5vw;
+        border-radius: 15px;
+    }
+    .above-img-div img{
+        width: 6vw;
+        height: 7vw;
+        margin: 0 5px;
+    }
+    .above-img-text h1{
+        font-size: 4vw;
+        padding: 0;
+    }
+    .above-img-text p{
+        font-size: 2vw;
+        padding: 0;
+    }
+    #right-dinex{
+        width: 100%;
+    }
+    #right-dinex h1{
+        display: flex;
+        justify-content: center;
+        font-size: 7vw;
+        padding-top: 5vw;
+    }
+    #right-dinex h1 span{
+        margin-left: 2vw;
+    }
+    #right-dinex p{
+        padding-top: 3vw;
+        display: flex;
+        justify-content: center;
+        font-size: 2.3vw;
+    }
+    #right-dinex li{
+        font-size: 2.3vw;
+        margin-left: 13px;
+    }
+    #right-dinex ul{
+        padding-bottom: 3vw;
+    }
+    #service h1{
+        font-size: 7vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    #big-container{
+        padding: 2vw;
+        border-radius: 10px;
+        gap: 10px;
+    }
+    #first-container .h2{
+        font-size: 3.2vw;
+    }
+    #second-container .h2{
+        font-size: 3.2vw;
+    }
+    #first-container .pa{
+        font-size: 1.5vw;
+    }
+    #second-container .pa{
+        font-size: 1.5vw;
+    }
+    #small-container .small-container{
+        padding: 4vw 4.5vw ;
+        border-radius: 10px;
+    }
+    #small-container .small-container h2{
+        font-size: 2.3vw;
+    }
+    #page-four {
+        flex-direction: column;
+    }
+    #left-page h1{
+        font-size: 12vw;
+        line-height: .9;
+        letter-spacing: 0;
+    }
+    #left-page h3{
+        padding-bottom: 1vw;
+        font-size: 3vw;
+    }
+    #left-page p{
+        font-size: 2vw;
+        padding: 3vw 0;
+    }
+    #right-page {
+        padding-top: 4vw;
+    }
+    #right-page .img-four {
+        width: 110%;
+        height: 45vw;
+    }
+    .page-four-floating-div {
+        padding: 1.5vw 1.5vw;
+        border-radius: 15px;
+    }
+    .page-four-above-img-logo img{
+        width: 6vw;
+        height: 7vw;
+        margin: 0 5px;
+    }
+    .paqge-four-above-img-text h1 {
+        font-size: 4vw;
+        padding: 0;
+    }
+    .paqge-four-above-img-text p {
+        font-size: 2vw;
+        padding: 0;
+    }
+    #our-doctors h1{
+        font-size: 7vw;
+    }
+    #our-doctors p{
+        font-size: 1.5vw;
+    }
+    .img-div {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .box img {
+        width: 46.6vw;
+        height: 65vw;
+        padding: 2vw 2vw;
+        padding-right: 0vw;
+    }
+    .box:hover{
+        transform: scale(1.1);
+    }
+    .left-green-div span{
+        font-size: 5.7vw;
+    }
+    .ff-img img {
+        height: 30vw;
+        width: 27vw;
+        border-radius: 15px;
+    }
+    .fs-img img {
+        height: 15vw;
+        width: 20vw;
+        border-radius: 15px;
+    }
+    .email-box input{
+        padding: 1.5vw 1vw;
+        padding-right: 22vw;
+    }
+    .email-box {
+        width: 38vw;
+    }
+    .subscribe{
+        padding: 1.1vw 2vw;
+        top: 4.56vw;
+    }
+    .subscribe h4{
+        font-size: 1.5vw;
+    }
+    #left-footer h1{
+        font-size: 7vw;
+    }
+    #left-footer p {
+        font-size: 1.9vw;
+    }
+    .f-combine h1 {
+        font-size: 2.9vw;
+    }
+    .f-combine ul a {
+        font-size: 1.5vw;
+    }
+    .f-combine ul {
+        padding: 0vw 0;
+    }
+}
